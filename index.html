@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Riddle Game</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="full">
+
+<audio src="sounds/bg.mp3" autoplay loop></audio>
+
+<div class="flowers">
+  <span></span><span></span><span></span><span></span><span></span>
+</div>
+
+<div class="box">
+  <h1>💜 Welcome to the Riddle Game 💜</h1>
+  <h3>Owner: Suhana</h3>
+  <p>Solve 9 fun riddles and check your final score!</p>
+  <a href="puzzle1.html" class="btn">▶ Start Game</a>
+</div>
+
+<script>
+localStorage.setItem("score", 0);
+localStorage.setItem("page", 1);
+</script>
+
+</body>
+</html>
