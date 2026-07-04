@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="style.css"></head>
+<body class="full">
+<div class="box">
+<h1>🎉 Game Over!</h1>
+<h2 id="result"></h2>
+<h3>Created by Suhana 💜</h3>
+<a href="index.html" class="btn">🔁 Play Again</a>
+</div>
+
+<script>
+document.getElementById("result").innerText =
+"Your Score: " + localStorage.getItem("score") + " / 9";
+</script>
+
+</body>
+</html>
