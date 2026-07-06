@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  min-height:100vh;
+  background:
+  url("https://www.transparenttextures.com/patterns/flowers.png"),
+  radial-gradient(circle at top, #a64dff, #2b0033);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.game-box{
+  background: rgba(128,0,128,0.85);
+  padding:30px;
+  border-radius:20px;
+  text-align:center;
+  width:90%;
+  max-width:420px;
+  box-shadow:0 0 35px #f0b3ff;
+}
+
+h1{
+  margin-bottom:10px;
+  text-shadow:0 0 10px #fff;
+}
+
+.owner{
+  margin-bottom:20px;
+  opacity:0.9;
+}
+
+.text{
+  margin-bottom:15px;
+}
+
+.buttons button{
+  width:100%;
+  padding:12px;
+  margin:8px 0;
+  font-size:16px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  background:#dda0ff;
+  color:#2b0033;
+}
+
+.buttons button:hover{
+  background:#f2ccff;
+  box-shadow:0 0 15px #fff;
+}
+
+.result{
+  margin-top:20px;
+  font-size:18px;
+}
